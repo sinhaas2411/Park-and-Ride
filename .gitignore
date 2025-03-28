@@ -33,5 +33,15 @@ build/
 .vscode/
 
 ### Application specific ###
-application-local.properties
-*.log 
+application-dev.properties
+application-prod.properties
+src/main/resources/application-dev.properties
+src/main/resources/application-prod.properties
+
+### Logs ###
+logs/
+*.log
+
+### OS specific files ###
+.DS_Store
+Thumbs.db 
